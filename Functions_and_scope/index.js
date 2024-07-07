@@ -35,7 +35,7 @@ function aboutTemperatureComment(x , y) {
     }else if ( x == "rainy" || y > avegTemp){
         return "enjoy the rainy day";
     }else {
-        "sorry wrong input";
+        return "sorry wrong input";
     }
     
 }
