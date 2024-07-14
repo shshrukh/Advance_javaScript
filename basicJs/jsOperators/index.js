@@ -11,4 +11,4 @@ let para2 = document.querySelector("#paraTwo");
 para1.innerHTML = "is A is grater then B?"+" "+resultOne;
 para2.innerHTML = "is A is less then B?"+" "+resultTwo;
 
-// in string comparision mean that vale according to order in assending
+// in string comparision if we heve single character then it will compair the unicode value and pass the result
