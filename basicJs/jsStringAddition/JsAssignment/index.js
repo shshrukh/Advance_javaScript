@@ -1,3 +1,4 @@
+// JS Assignment operators
 let numberOne = 2;
 let numberTow = 5;
 let numberThree = 10;
