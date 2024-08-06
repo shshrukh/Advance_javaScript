@@ -43,4 +43,29 @@ console.log(myFunctionTwo(3,2));
 //The function above is actually an anonymous self-invoking function (function without name).
 
 //-------->Important Note<---------//
+//1. the typeof operater in JS return "function" for functions. But JS function can best be describe as Objects. JS function have both methods and properties
+
+// the arguments.length properties retrun the number of arguments resived when function is invoke.
+function myFunctionThree(a, b) {
+    return arguments.length;
+}
+console.log(myFunctionThree(3,2));
+
+//the toString() method return the function as a string;
+function myFunctionFour(a, b) {
+    return a * b;
+}
+console.log(myFunctionFour(4,2).toString()); // return the product of a*b as string.
+
+//----->Arrow Function<-----//
+// the arrow function allow a short sentex of function experssion 
+// We dont't need the function keyword, the return keyword and the carly brakets only.
+
+const myFunctionFive = (a,b)=> a*b;
+console.log(myFunctionFive(4,2));
+// Arrow function are not hoisted. We must be define before we can use.
+//Using const is safer then using var, because function experssion is always constan value
+//We can only omit the return keyword and the curly brackets if the function is a single statement. Because of this, it might be a good habit to always keep them
+const myFunctionSix = (a, b)=>{return a*b};
+console.log(myFunctionSix(4,3));
 
