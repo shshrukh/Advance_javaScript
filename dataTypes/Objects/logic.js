@@ -54,4 +54,25 @@ objectFour = {
 } 
 console.log(objectFour.car.car2);
 
+//--------->Object Constructor Function<-----------//
+const ObjectFive = function(name, age, street, nationality){
+    this.name = name;
+    this.age = age;
+    this.street = street;
+    this.nationality = nationality;
+}
+const personSix = new ObjectFive('ali', 32, 'abc', 'xyz');
+console.log(personOneDetails);
 
+// if we not used the new keyword afer declation function then it will give undefine. Another way that is afer construting function make a empty object to rid of undefine.
+
+const ObjectSeven = function(name, age, street, nationality){
+    personDetails= {}
+    personDetails.name = name;
+    personDetails.age = age;
+    personDetails.street = street;
+    personDetails.nationality = nationality;
+    return personDetails;
+}
+const personOneDetails = ObjectSeven('arbaz', 24, 'chickus kote ', 'pak');
+console.log(personOneDetails);

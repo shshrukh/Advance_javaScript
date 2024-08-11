@@ -27,3 +27,7 @@ console.log(resultOne);
  let resultTow = subtraction(5 - 3);
  console.log(resultTow);
 //  here when we define the function and inside the round brackets we define the parameters and using that parameters in function or function scope and when we call or invoked the function we define arguments. Arguments can hold the calue of parameters
+
+
+//------->arrow function <--------//
+const myFunctions = (a,b)=> a*b;
