@@ -37,7 +37,7 @@ console.log(nameTow);
 
 
 // adding new properties to object 
-objectOne.nationality = "Pakistan"; //this will add the new preperty in objectOne if the same properties then its cover write the value .
+objectOne.nationality = "Pakistan"; //this will add the new preperty in objectOne if the same properties then its over write the value .
 
 //Deleting Properties
 delete objectThree.adderess; // the delete keyword delete both property and values
@@ -62,9 +62,9 @@ const ObjectFive = function(name, age, street, nationality){
     this.nationality = nationality;
 }
 const personSix = new ObjectFive('ali', 32, 'abc', 'xyz');
-console.log(personOneDetails);
+console.log(personSix);
 
-// if we not used the new keyword afer declation function then it will give undefine. Another way that is afer construting function make a empty object to rid of undefine.
+// if we not used the new keyword afer declation function then it will give undefine. Another way that is after construting function make a empty object to rid of undefine.
 
 const ObjectSeven = function(name, age, street, nationality){
     personDetails= {}
@@ -76,3 +76,8 @@ const ObjectSeven = function(name, age, street, nationality){
 }
 const personOneDetails = ObjectSeven('arbaz', 24, 'chickus kote ', 'pak');
 console.log(personOneDetails);
+
+
+
+//------->JS Object Methods<----------//
+//1. General Method 2. Prperty Management Method 3. Object Protection Method
