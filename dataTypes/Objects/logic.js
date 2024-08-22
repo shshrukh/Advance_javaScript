@@ -63,6 +63,12 @@ const ObjectFive = function(name, age, street, nationality){
 }
 const personSix = new ObjectFive('ali', 32, 'abc', 'xyz');
 console.log(personSix);
+// or 
+const personEight = new Object();
+personEight.name = 'shah';
+personEight.age = 56;
+personEight.eyeColor = 'blue';
+console.log(personEight);
 
 // if we not used the new keyword afer declation function then it will give undefine. Another way that is after construting function make a empty object to rid of undefine.
 
